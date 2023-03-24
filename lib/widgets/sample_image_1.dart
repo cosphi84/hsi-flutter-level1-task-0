@@ -8,7 +8,7 @@ class SimpleImage1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Belajar Image Circile'),
+        title: const Text('Belajar Image Circle'),
       ),
       body: Column(
         children: [

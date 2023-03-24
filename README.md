@@ -1,6 +1,9 @@
-# hsi_level1
+# Flutter Discord HSI Level 1 ARN231-19139
 
-belajar flutter level 1
+Learning Flutter Via Discord HSI,
+Level 1 Task 0 : Container dan Widget
+Source tutorial : [Code With Bahri](https://www.youtube.com/playlist?list=PLQvQbJRJpIZ7c4ZQ0QyoEpapQamekRvt0)
+
 
 ## Getting Started
 
