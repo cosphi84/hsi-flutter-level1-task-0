@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hsi_level1/widgets/sample_bottom_navbar.dart';
 import 'package:hsi_level1/widgets/sample_container.dart';
 import 'package:hsi_level1/widgets/sample_image.dart';
 import 'package:hsi_level1/widgets/sample_image_1.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: SampleListView(),
+      home: SampleBottomNavbar(),
     );
   }
 }
