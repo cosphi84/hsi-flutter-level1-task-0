@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:hsi_level1/widgets/sample_widget_padding.dart';
 
 class SampleBottomNavbar extends StatefulWidget {
    const SampleBottomNavbar({ super.key });
@@ -18,12 +19,7 @@ class _SampleBottomNavbarState extends State<SampleBottomNavbar> {
   }
 
   List<Widget> pages = [
-    const Text(
-      'Beranda',
-      style: TextStyle(
-        fontSize: 30,
-      ),
-    ),
+    const SamplePadding(),
     const Text(
       'Cari',
       style: TextStyle(
@@ -35,7 +31,7 @@ class _SampleBottomNavbarState extends State<SampleBottomNavbar> {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Latihan Bottom Nav'),
+        title: const Text('Latihan Widget Padding'),
       ),
       body: Center(
         child: pages[_selectedIndex],
