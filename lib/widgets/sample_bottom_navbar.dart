@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:hsi_level1/widgets/sample_colum_row.dart';
 import 'package:hsi_level1/widgets/sample_widget_padding.dart';
 
 class SampleBottomNavbar extends StatefulWidget {
@@ -20,12 +21,7 @@ class _SampleBottomNavbarState extends State<SampleBottomNavbar> {
 
   List<Widget> pages = [
     const SamplePadding(),
-    const Text(
-      'Cari',
-      style: TextStyle(
-        fontSize: 30,
-      ),
-    ),
+    const SampleColRow(),
   ];
   @override
   Widget build(BuildContext context){
